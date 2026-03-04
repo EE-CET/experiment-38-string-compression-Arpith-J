@@ -24,7 +24,7 @@ public class StringCompression {
                 }
                 compressed.append(a);
                 compressed.append(count);
-                if(compressed.length() >= s.length()){
+                if(compressed.length() > s.length()){
                         System.out.println(s);
                 }
                 else{
